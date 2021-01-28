@@ -14,11 +14,11 @@ function App() {
              
         <Banner />
         <CustomNavbar />
-        <AllBooks />
-        
+         <AllBooks />
         <ContactUs />
         <RFooter />
 
+ 
     </div>
   );
 }
