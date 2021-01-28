@@ -117,7 +117,7 @@ class AllBooks extends Component {
 
     render() {
         return (
-            <div id="aB">
+            <div id="allBooks">
                 <div className="allbookDiv">
                     <Table id="books" className="allbookTable">
                         <thead className="allbookThead">
@@ -135,8 +135,9 @@ class AllBooks extends Component {
                     </Table>
                 </div>
 
-              
-                <div className="inputbooksDiv">
+                
+                 
+                <div id="inputBooks">
                 <Form className="addbookForm">
                     <h2 className="addbookHeader">Enter Book Details</h2>
                     <Form.Group controlId="formBasicEmail">

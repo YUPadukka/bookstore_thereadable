@@ -4,12 +4,12 @@ import { Container, Row, Col} from 'react-bootstrap';
 class ContactUs extends Component {
     render() {
         return (
-            <div className="contactusDiv">
+            <div id="contactusDiv">
                 <h2 className="contactusHeader">Contact Us</h2>
                 <div>
                     <br />
                     <br />
-                    <Container >
+                    <Container id="contactUs">
                         <Row style={{position:"relative", justifyContent:"center"}}>
 
                             <Col style={{textAlign:"center",color:"rgba(2, 132, 199, 1)",fontSize:"large"}} md={3}>
